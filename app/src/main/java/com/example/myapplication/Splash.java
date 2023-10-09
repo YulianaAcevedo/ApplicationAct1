@@ -20,7 +20,7 @@ public class Splash extends AppCompatActivity {
         background.setImageResource(R.drawable.logo);
 
         // Start the main activity after a delay
-        final int delayMillis = 3000;
+        final int delayMillis = 5000;
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

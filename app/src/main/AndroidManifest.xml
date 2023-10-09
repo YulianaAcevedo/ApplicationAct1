@@ -9,11 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Splash"
+        <activity android:name=".Menu"></activity>
+        <activity
+            android:name=".Splash"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowBackground="@drawable/logo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
